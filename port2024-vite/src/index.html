@@ -22,11 +22,37 @@
     </div>
     <!-- skip -->
 
-    <header id="header">
-
+    <header id="header" role="banner">
+        <div class="header_inner">
+            <div class="header_logo">
+                <h1>
+                    <a href="#">SH<em>vite</em></a>
+                </h1>
+            </div>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#intro">intro</a></li>
+                    <li><a href="#skill">skill</a></li>
+                    <li><a href="#site">site</a></li>
+                    <li><a href="#port">port</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+            <div
+                class="header_nav_mobile"
+                id="headerToggle"
+                aria-controls="primary-menu"
+                aria-expanded="false"
+                role="button"
+                tabindex="0"
+            >
+            <span></span>
+        </div>
+        </div>
     </header>
     <!-- header -->
-    <main id="main">
+
+    <main id="main" role="main">
         <section id="intro">
             intro
         </section>
@@ -50,7 +76,8 @@
         <!-- contact -->
     </main>
     <!-- main -->
-    <footer id="footer">
+
+    <footer id="footer" role="contentinfo">
 
     </footer>
     <!-- footer -->
