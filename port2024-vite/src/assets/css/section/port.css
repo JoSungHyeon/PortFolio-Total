@@ -1,3 +1,139 @@
 #port {
-    height: 3000px;
+    width: 100%;
+    margin-top: 30vh;
+    overflow: hidden;
+}
+
+.port_inner {
+    padding: 16px;
+}
+
+.port_title {
+    width: 100%;
+    font-size: 4vw;
+    height: 5vw;
+    font-weight: 900;
+    line-height: 1.6;
+    font-family: var(--mainKor-font);
+    text-transform: uppercase;
+    color: var(--black100);
+    border-bottom: 0.4vw solid var(--black100);
+    margin-bottom: 16px;
+    text-indent: -0.25vw;
+}
+
+.port_title em {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2;
+}
+
+.port_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 7000px;
+}
+
+.port_item {
+    width: 500px;
+    /* height: 70vh; */
+    background-color: var(--subBg100);
+    padding: 2.5rem;
+    margin-right: 20px;
+    overflow-y: auto;
+}
+
+.port_item.p1 {
+    background-color: var(--subBg100);
+}
+.port_item.p2 {
+    background-color: var(--subBg200);
+}
+.port_item.p3 {
+    background-color: var(--subBg300);
+}
+.port_item.p4 {
+    background-color: var(--subBg400);
+}
+.port_item.p5 {
+    background-color: var(--subBg500);
+}
+.port_item.p6 {
+    background-color: var(--subBg100);
+}
+.port_item.p7 {
+    background-color: var(--subBg200);
+}
+.port_item.p8 {
+    background-color: var(--subBg300);
+}
+.port_item.p9 {
+    background-color: var(--subBg400);
+}
+.port_item.p10 {
+    background-color: var(--subBg500);
+}
+
+.port_item .num {
+    font-size: 2rem;
+    font-family: var(--mainNum-font);
+}
+
+.port_item .img {
+    display: block;
+    margin-top: -20px;
+    transition: margin-top 0.3s;
+}
+
+.port_item:hover .img {
+    margin-top: 0;
+}
+
+.port_item .img img {
+    border-radius: 5px;
+    filter: saturate(0%);
+    transition: all 0.3s;
+}
+
+.port_item .img:hover img {
+    filter: saturate(100%);
+}
+
+.port_item .title {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.8rem 0;
+    font-weight: 700;
+    color: var(--black100);
+    border-bottom: 2px solid var(--black100);
+    margin-bottom: 1rem;
+}
+
+.port_item .desc {
+
+}
+
+.port_item .site {
+    border: 1px solid var(--black100);
+    display: block;
+    text-align: center;
+    padding: 0.625rem 1.5rem;
+    margin-top: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    .port_title {
+        width: 100%;
+        margin-bottom: 16px;
+        font-size: 30px;
+        height: auto;
+        top: 68px;
+        z-index: 1000;
+        background-color: var(--mainBg-color);
+    }
+    .port_item {
+        width: 400px;
+        padding: 40px 30px;
+        height: auto;
+    }
 }
