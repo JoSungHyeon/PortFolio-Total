@@ -13,7 +13,7 @@
 }
 
 .intro_title {
-    font-size: 10vw;
+    font-size: 8vw;
     text-transform: uppercase;
     line-height: 1;
     font-weight: 800;
@@ -35,9 +35,9 @@
 }
 
 .intro_text .text {
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 1;
-    font-weight: 900;
+    font-weight: 700;
     text-transform: uppercase;
     text-decoration: underline; 
     text-align: center;
@@ -45,6 +45,17 @@
     z-index: 100;
     transition: all 0.3s;
     cursor: all-scroll;
+    animation: textAni 1s forwards;
+}
+
+@keyframes textAni {
+    0% {
+        letter-spacing: 20px;
+    }
+
+    100% {
+        letter-spacing: -2px;
+    }
 }
 
 .intro_text .img {
