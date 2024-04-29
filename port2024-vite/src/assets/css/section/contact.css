@@ -35,7 +35,7 @@
 }
 
 .contact_text .text {
-    font-size: 2vw;
+    font-size: 1.75vw;
     line-height: 1;
     font-weight: 700;
     text-transform: uppercase;
@@ -45,6 +45,10 @@
     z-index: 100;
     transition: all 0.3s;
     cursor: all-scroll;
+}
+
+.contact_text .text div {
+    margin: 14px 0;
 }
 
 .contact_lines .line {

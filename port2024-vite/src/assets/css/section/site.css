@@ -75,6 +75,10 @@
     font-family: var(--mainEng-font);
 }
 
+.site_item .text > div:nth-child(2) {
+    margin: 10px 0;
+}
+
 .site_item .title {
     font-family: var(--mainKor-font);
     margin-bottom: 1rem;
