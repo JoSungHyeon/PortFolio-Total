@@ -35,7 +35,7 @@ const Header = () => {
         <div className="header_inner">
             <div className="header_logo">
                 <h1>
-                    <a href="/">SH<em>vite</em></a>
+                    <a href="/">SH<em>react.js</em></a>
                 </h1>
             </div>
             <nav
