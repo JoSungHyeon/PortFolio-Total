@@ -121,6 +121,11 @@
     margin-top: 1.5rem;
 }
 
+.port_item .site:hover {
+    background-color: var(--black100);
+    color: var(--white);
+}
+
 @media (max-width: 800px) {
     .port_title {
         width: 100%;
