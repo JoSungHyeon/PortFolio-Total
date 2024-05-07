@@ -2,8 +2,8 @@ import React from 'react';
 import about from '../assets/img/tiger.jpg';
 
 const introText = {
-  title: "my example",
-  desc: ["telent is", "found at the end of the", "effort"]
+    title: "my example",
+    desc: ["telent is", "found at the end of the", "effort"]
 }
 
 const Intro = () => {
