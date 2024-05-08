@@ -1,10 +1,6 @@
 import React from 'react';
 import about from '../assets/img/tiger.jpg';
-
-const introText = {
-    title: "my example",
-    desc: ["telent is", "found at the end of the", "effort"]
-}
+import { introText } from '../constants';
 
 const Intro = () => {
   return (

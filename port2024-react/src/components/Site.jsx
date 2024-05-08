@@ -1,51 +1,6 @@
 import React from 'react';
+import { siteText } from '../constants';
 
-const siteText = [
-    {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "Create a site using Vite",
-        code: "https://github.com/JoSungHyeon/PortFolio-Total",
-        view: "/",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : html5/css3, CSS Variable, Vite"
-        ]
-    },
-    {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "Create a site using React",
-        code: "https://github.com/JoSungHyeon/PortFolio-Total",
-        view: "/",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : html5/css3, CSS Variable, React"
-        ]
-    },
-    {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "Create a site using Vue",
-        code: "https://github.com/JoSungHyeon/PortFolio-Total",
-        view: "/",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : html5/css3, CSS Variable, Vue"
-        ]
-    },
-    {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "Create a site using Next",
-        code: "https://github.com/JoSungHyeon/PortFolio-Total",
-        view: "/",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : html5/css3, CSS Variable, Next"
-        ]
-    },
-]
 
 const Site = () => {
   return (

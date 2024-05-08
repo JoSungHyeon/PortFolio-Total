@@ -1,23 +1,5 @@
 import React from 'react';
-
-const skillText = [
-    {
-      title: "HTML",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem magnam doloribus molestiae veritatis, sit ullam culpa pariatur veniam, eum rerum illum, saepe ea dicta   excepturi optio consequatur possimus commodi est."
-    },
-    {
-      title: "CSS",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem magnam doloribus molestiae veritatis, sit ullam culpa pariatur veniam, eum rerum illum, saepe ea dicta   excepturi optio consequatur possimus commodi est."
-    },
-    {
-      title: "JAVASCRIPT",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem magnam doloribus molestiae veritatis, sit ullam culpa pariatur veniam, eum rerum illum, saepe ea dicta   excepturi optio consequatur possimus commodi est."
-    },
-    {
-      title: "REACT",
-      desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem magnam doloribus molestiae veritatis, sit ullam culpa pariatur veniam, eum rerum illum, saepe ea dicta   excepturi optio consequatur possimus commodi est."
-    }
-]
+import { skillText } from '../constants';
 
 const Skill = () => {
   return (
