@@ -19,5 +19,4 @@ import Footer from '@/components/Footer.vue'
     <Port />
   </main>
   <Contact />
-  <Footer />
 </template>
