@@ -1,4 +1,4 @@
-
+import '@/assets/scss/style.scss';
 
 export const metadata = {
   title: "PF-React-Next",
