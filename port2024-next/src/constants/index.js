@@ -25,7 +25,8 @@ export const headerNav = [
 
 export const introText = {
     title: "my example",
-    desc: ["telent is", "found at the end of the", "effort"]
+    desc: ["telent is", "found at the end of the", "effort"],
+    img: portImg
 }
 
 export const skillText = [
