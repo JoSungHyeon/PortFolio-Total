@@ -81,17 +81,17 @@ export const siteText = [
             "use stack : html5/css3, CSS Variable, Vue"
         ]
     },
-    {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "Create a site using Next",
-        code: "https://github.com/JoSungHyeon/PortFolio-Total",
-        view: "/",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : html5/css3, CSS Variable, Next"
-        ]
-    },
+    //{
+    //    text: ["make", "site compliant with", "webstandard"],
+    //    title: "Create a site using Next",
+    //    code: "https://github.com/JoSungHyeon/PortFolio-Total",
+    //    view: "/",
+    //    info: [
+    //        "site coding",
+    //        "production period : two days",
+    //        "use stack : html5/css3, CSS Variable, Next"
+    //    ]
+    //},
 ];
 
 export const portText = [
