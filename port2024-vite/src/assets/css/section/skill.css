@@ -1,14 +1,14 @@
 .skill_inner {
     padding: 16px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .skill_title {
     position: sticky;
     top: 70px;
     left: 0;
-    width: 48%;
+    width: 100%;
     font-size: 4vw;
     height: 5vw;
     font-weight: 900;
@@ -17,6 +17,8 @@
     text-transform: uppercase;
     color: var(--black100);
     border-bottom: 0.4vw solid var(--black100);
+    background-color: var(--mainBg-color);
+    z-index: 2;
 }
 
 .skill_title em {
@@ -26,7 +28,26 @@
 }
 
 .skill_desc {
-    width: 50%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10rem 1rem;
+}
+
+.skill_desc div h3 {
+    flex: 15% 0 0;
+}
+
+.skill_desc div .prograss {
+    margin: 5rem 0;
+    flex: 85% 0 0;
+    border: 1px solid #ccc;
+    height: 30px;
+}
+
+.skill_desc div .prograss .prograss_bar {
+    width: 80%;
+    background-color: var(--black100);
+    height: 100%;
 }
 
 .skill_desc span {
@@ -41,7 +62,6 @@
     font-size: 1.5rem;
     text-decoration: underline;
     text-underline-position: under;
-    margin-bottom: 1vw;
 }
 
 .skill_desc p {

@@ -38,14 +38,17 @@
     font-size: 2vw;
     line-height: 1;
     font-weight: 700;
-    text-transform: uppercase;
-    text-decoration: underline; 
+    /* text-transform: uppercase; */
     text-align: center;
     position: relative;
     z-index: 100;
     transition: all 0.3s;
     cursor: all-scroll;
     animation: textAni 1s forwards;
+}
+
+.intro_text .text div {
+    letter-spacing: 2px;
 }
 
 .intro_text .text div:nth-child(2) {

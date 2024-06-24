@@ -12,3 +12,5 @@ export function link() {
         });
     });
 }
+
+export default link;

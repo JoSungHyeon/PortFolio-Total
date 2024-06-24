@@ -110,7 +110,8 @@
 }
 
 .port_item .desc {
-
+    text-align: center;
+    margin: 10px 0;
 }
 
 .port_item .site {
