@@ -45,9 +45,33 @@
 }
 
 .skill_desc div .prograss .prograss_bar {
-    width: 80%;
     background-color: var(--black100);
     height: 100%;
+}
+
+.skill_desc div .prograss .prograss_bar.prograss_html {
+    width: 90%;
+    background-color: #E95828;
+}
+
+.skill_desc div .prograss .prograss_bar.prograss_css {
+    width: 85%;
+    background-color: #1771B5;
+}
+
+.skill_desc div .prograss .prograss_bar.prograss_java {
+    width: 70%;
+    background-color: #F6AA3F;
+}
+
+.skill_desc div .prograss .prograss_bar.prograss_jq {
+    width: 85%;
+    background-color: #076FAE;
+}
+
+.skill_desc div .prograss .prograss_bar.prograss_react {
+    width: 70%;
+    background-color: #7ADAF7;
 }
 
 .skill_desc span {
